@@ -6,4 +6,3 @@ public class Rashirenie {
     System.out.println(num2);
     }
 }
-
