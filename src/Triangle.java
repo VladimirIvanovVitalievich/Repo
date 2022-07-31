@@ -1,4 +1,4 @@
-public class Triangle extends Lesson7AboutFigures{
+public class Triangle extends Figures{
     public int a = 2;
     public int b = 5;
     public int c = 3;
@@ -16,7 +16,6 @@ public class Triangle extends Lesson7AboutFigures{
 
     public void calculatePerimeter(){
         int perimeterTriangle = a + b + c;
-        double perimeter = perimeterTriangle;
-        System.out.println("The perimeter of the triangle is " + perimeterTriangle);
+        System.out.println("The perimeter of the triangle" + perimeterTriangle);
     }
 }

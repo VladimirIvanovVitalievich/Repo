@@ -1,4 +1,4 @@
-public class Round extends Lesson7AboutFigures{
+public class Round extends Figures{
     public int radius = 6;
 
     public Round(int radius){
@@ -9,7 +9,6 @@ public class Round extends Lesson7AboutFigures{
         double squareRound = radius * radius * 3.14;
         System.out.println("The square of the round is " + squareRound);
     }
-
     public void calculatePerimeter(){
         double perimeterRound = radius * 2 * 3.14;
         System.out.println("The perimeter of the round is " + perimeterRound);

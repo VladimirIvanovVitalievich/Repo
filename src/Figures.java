@@ -4,7 +4,7 @@ public class Figures {
     public int c;
 
     public void calculatePerimeter(){
-        int perimeter = a + b +c;
+        int perimeter = a + b + c;
     }
 
     public void calculateSquare(){

@@ -1,6 +1,5 @@
-public class Lesson7AboutFigures {
+public class Starter {
     public static void main(String[] args) {
-
         Triangle triangle = new Triangle(2, 5, 3);
         Round round = new Round(6);
         Rectangle rectangle = new Rectangle();
